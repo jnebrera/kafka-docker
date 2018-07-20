@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/wizzie-io/kafka-docker/tree/master.svg?style=svg)](https://circleci.com/gh/wizzie-io/kafka-docker/tree/master)
+
 # kubernetes-kafka
 Apache Kafka to Kubernetes Statefulset
 
