@@ -1,7 +1,7 @@
 FROM maven:3.5-jdk-8 as maven
 
 RUN git clone https://github.com/wizzie-io/kafka-metrics-reporter.git
-RUN cd kafka-metrics-reporter && git pull --tags && git checkout kafka-metric-reporter-1.0.0 && mvn package -DskipTests
+RUN cd kafka-metrics-reporter && git pull --tags && git checkout kafka-metric-reporter-1.0.1 && mvn package -DskipTests
 
 FROM wurstmeister/kafka:2.12-2.1.0
 
